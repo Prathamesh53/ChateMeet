@@ -19,7 +19,7 @@ Future<void> main() async {
 
   // for initializing facebook ads sdk
   AdHelper.init();
-
+ //for full screen mode
   await SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   await SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
